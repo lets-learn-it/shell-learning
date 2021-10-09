@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Parikshit Patil",
+    "age": 23,
+    "address": {
+      "village": "kavathe Ekand",
+      "pin": 416307
+    },
+    "hobbies": ["sleeping", "watching movies"]
+  },
+  {
+    "name": "XYZ ABC",
+    "age": 25,
+    "address": {
+      "village": "Tasgaon",
+      "pin": 416312
+    },
+    "hobbies": ["playing cricket", "watching anime"]
+  }
+]
