@@ -16,3 +16,7 @@
 - [06-functions](06-functions/)
 - [07-shell-substitution](07-shell-substitution/)
 - [08-io-redirection](08-io-redirection/)
+- [11-text-utilities](11-text-utilities/)
+- [12-network-utilities](12-network-utilities/)
+- [13-disk-utilities](13-disk-utilities)
+- [14-cryptographic-utilities](14-cryptographic-utilities)
