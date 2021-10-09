@@ -1,45 +1,10 @@
-# If
+# condition
 
-```sh
-#!/bin/sh
+## [if](if/)
 
-# if
-a=10
-if [ $a -gt 11 ]
-then
-  echo $a
-fi
-```
+- [simple if](if/0_if.sh)
+- [if elif else ladder](if/1_if_elif_else.sh)
 
-# if-elif-else ladder
+## [case](case/)
 
-```sh
-#!/bin/sh
-
-a=20
-
-if [ $a -gt 20 ]
-then
-  echo "a > 20"
-elif [ $a -lt 20 ]
-then
-  echo "a < 20"
-else
-  echo "a = 20"
-fi
-```
-
-# case
-
-```sh
-#!/bin/sh
-
-a=30
-
-case "$a" in 
-  20) echo "20"
-  ;;
-  30) echo "30"
-  ;;
-esac
-```
+- [simple case](if/0_case.sh)
