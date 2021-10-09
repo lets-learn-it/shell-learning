@@ -16,7 +16,7 @@ The name of a variable can contain only letters (a to z or A to Z), numbers ( 0 
 
 By convention, Unix shell variables will have their names in UPPERCASE.
 
-### Readonly variables
+## Readonly variables
 
 ```sh
 #!/bin/sh
@@ -53,7 +53,7 @@ $ A="HI"
 $ export B="Bye"
 ```
 
-**create file**
+#### create file
 
 ```sh
 # A is local and wont print
@@ -86,13 +86,13 @@ echo "Quoted Values: $*"
 echo "Total Number of Parameters : $#"
 ```
 
-**Run above file**
+#### Run above file
 
 ```sh
-$ ./filename.sh arg1 arg2
+./filename.sh arg1 arg2
 ```
 
-**Output**
+##### Output
 
 ```txt
 File Name: var.sh

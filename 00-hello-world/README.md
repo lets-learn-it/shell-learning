@@ -6,10 +6,10 @@
 echo Hello World        # This is a comment, too!
 ```
 
-### Line explaination
+## Line explaination
 
 1. tells Unix that the file is to be executed by /bin/sh
-2. #. This marks the line as a comment, and it is ignored completely by the shell. 
+2. #. This marks the line as a comment, and it is ignored completely by the shell.
 3. The third line runs a command: echo, with two parameters, or arguments - the first is "Hello"; the second is "World".
 
 >Note that echo will automatically put a single space between its parameters.
