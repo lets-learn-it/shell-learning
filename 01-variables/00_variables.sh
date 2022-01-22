@@ -1,5 +1,7 @@
 #! /bin/sh
 
+set -ex
+
 MY_NAME="Parikshit Patil"  # don't use space like MY_NAME = "Parikshit"
 
 echo $MY_NAME
