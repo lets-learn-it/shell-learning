@@ -54,6 +54,17 @@ kill %1
 kill pid
 ```
 
+### Disowning bg job
+
+This allows long running jobs to continue after shell is closed
+
+```sh
+# long running job
+gzip largefile &
+
+disown %1
+```
+
 ## Points
 
 - Job will only appear in `jobs` if it is an immediate child of the shell.
